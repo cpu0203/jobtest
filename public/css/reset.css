@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+* a {
+  text-decoration: none !important;
+  color: inherit;
+}
+
+:root {
+  --my-white: #f4f2e6;
+  --my-dark: #271913;
+  --my-yellow: #eed289;
+  --my-black: #181513;
+}
+
+.i-b {
+  display: inline-block;
+}
+
+.dark_blue {
+  background-color: #374050;
+}
+
+.upper {
+  text-transform: uppercase;
+}
+
+.min_opc {
+  opacity: .4;
+}

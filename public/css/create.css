@@ -1,0 +1,83 @@
+.wrapper_create {
+  min-height: 100vh;
+  padding: 2rem;
+  color: #fff;
+}
+
+.wrapper_create form label,
+.wrapper_create form select,
+.wrapper_create form input {
+  display: block;
+}
+
+.wrapper_create form {
+  margin-top: 1rem;
+  width: 65%;
+}
+
+.wrapper_create form label {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  font-size: 14px;
+}
+
+.wrapper_create form select,
+.wrapper_create form input {
+  padding: .5rem;
+  border-radius: 8px;
+  border: none;
+  width: 100%;
+}
+
+.attr_title {
+  font-size: 1.3rem;
+  margin-top: 2rem;
+}
+
+p.add_attribute {
+  margin-top: 12px;
+}
+
+.add_attribute a {
+  font-size: 12px;
+  color: #0fc5ff;
+}
+
+.attribut_box {
+  display: flex;
+  gap: 1rem;
+}
+
+.attribut_box_inner {
+  width: 100%;
+}
+
+.trash_icon {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  margin-top: 51px;
+  cursor: pointer
+}
+
+#send-fields {
+  background: #0fc5ff;
+  padding: .3rem 1rem;
+  color: #fff;
+  border-radius: 5px;
+  margin-top: 2rem;
+  width: auto;
+  cursor: pointer;
+}
+
+#send-fields:hover {
+  background: #08a3d6;
+}
+
+.alert-danger {
+  margin-top: 1rem;
+  background: #df4b4b;
+  width: fit-content;
+  padding: .2rem .5rem;
+  border-radius: 5px;
+}

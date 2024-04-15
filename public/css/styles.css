@@ -1,0 +1,101 @@
+@import url(./reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.wrapper {
+  display: flex;
+  min-height: 100vh;
+}
+
+.left_box {
+  width: 300px;
+  color: #fff;
+}
+
+.logo_box {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.logo_box img {
+  margin: 1rem;
+}
+
+.logo_div {
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom-right-radius: 25px 25px;
+}
+
+.text_div {
+  line-height: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.right_box {
+  background-color: #f2f6fa;
+  width: 100%;
+}
+
+.right_top {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 1rem;
+}
+
+.right_box_table {
+  /* margin: 1rem; */
+  width: 780px;
+  border-spacing: 0
+}
+
+.right_box_table tr:not(:first-of-type) {
+
+  background: #fff;
+}
+
+.right_box_table th,
+.right_box_table td {
+  text-align: left;
+  padding: 1rem;
+  border-bottom: 1px solid #999;
+}
+
+.right_content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.div_under_btn {
+  margin-top: 1.5rem;
+}
+
+.add_button {
+  margin: 1rem;
+  background: #0fc5ff;
+  padding: .3rem 1rem;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.add_button:hover {
+  background: #08a3d6;
+}
+
+.article_link {
+  text-transform: uppercase;
+}
+
+.alert-danger li {
+  list-style-type: none;
+}
